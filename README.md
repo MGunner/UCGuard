@@ -4,10 +4,7 @@
 ===================
 کد های نصب ربات 
 
-git clone https://github.com/permag-ir/permag.ir.git && cd permag.ir && chmod +x permag.sh && ./permag.sh install && ./permag.sh
-
-
-
+git clone https://github.com/MGunner/UCGuard.git && cd UCGuard && chmod +x uciran.sh && ./uciran.sh install && ./uciran.sh
 
 ======================
 توجه کنید اگر در سرورتان پس از زدن کد های بالا هر گونه خطایی دیدید 
@@ -37,8 +34,8 @@ sudo ppa-purge
 پس از تکمیل کار
  کد های زیر را بزنید
 
-cd permag.ir
-./permag.sh
+cd uciran
+./uciran.sh
 
 ربات خود را تست کنید و اگر پاسخ دادید و مشکلی نبود کد های زیر را وارد کنید 
 اما اگر اخر فایل مثل فیلم بود اما پاسخ نمیداد و داخل ترمینال خطای
@@ -50,17 +47,17 @@ old msg
 
 و در اخر باز از ترمینال خارج شده مجدد وارد شوید 
 و کد های زیر را وارد کنید
-cd permag.ir
-screen ./permag.sh
+cd uciran
+screen ./uciran.sh
 
 
 
 اگر احیانا بعدا خواستید کدی را تغییر بدهید 
 پس از اینکه کار خود را انجام دادید برای مجدد فعال شدن ربات  
 کد های زیر را وارد کنید
-cd permag.ir 
+cd uciran
 killall screen
-screen .permag.sh
+screen .uciran.sh
 
 آموزش اپدیت و نصب پلاگین در تلگرام در کانال ما
 

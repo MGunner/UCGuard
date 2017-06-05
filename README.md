@@ -5,7 +5,8 @@
 کد های نصب ربات 
 
 git clone https://github.com/MGunner/UCGuard.git && cd UCGuard && chmod +x uciran.sh && ./uciran.sh install && ./uciran.sh
-
+cd UCGuard
+screen ./uciran.sh
 ======================
 توجه کنید اگر در سرورتان پس از زدن کد های بالا هر گونه خطایی دیدید 
 مثل خطای git 
@@ -55,6 +56,7 @@ screen ./uciran.sh
 اگر احیانا بعدا خواستید کدی را تغییر بدهید 
 پس از اینکه کار خود را انجام دادید برای مجدد فعال شدن ربات  
 کد های زیر را وارد کنید
+
 cd uciran
 killall screen
 screen .uciran.sh
